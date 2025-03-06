@@ -12,7 +12,7 @@ function Header() {
           </div>
 
           <ul className='flex ml-auto text-white gap-6'>
-          <li ><Button> Home </Button></li>
+          <li><Button> Home </Button></li>
           <li ><Button>Login </Button></li>
            <li><Button>SignUp</Button> </li>
            <li><Button>Local Dataset</Button> </li>

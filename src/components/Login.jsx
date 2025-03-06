@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { Link } from "react-router-dom";
 
 const LoginForm = () => {
   useEffect(() => {
@@ -55,7 +56,7 @@ const LoginForm = () => {
         </form>
         
         <p className="text-center text-gray-400 mt-4">
-          Don't have an account? <a href="#" className="text-blue-400 hover:underline">Sign up</a>
+          Don't have an account? <Link to='/signup' className="text-blue-400 hover:underline">Sign up</Link>
         </p>
       </div>
     </div>
