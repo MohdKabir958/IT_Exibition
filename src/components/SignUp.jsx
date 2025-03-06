@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import { Link } from "react-router-dom";
+import  {Link}  from "react-router-dom";
 
 const SignupForm = () => {
   useEffect(() => {
