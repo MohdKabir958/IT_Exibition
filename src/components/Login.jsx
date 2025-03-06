@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import  {Link}  from 'react-router-dom';
+import {Button} from "../components/index"
 
 const LoginForm = () => {
   useEffect(() => {
@@ -47,12 +48,12 @@ const LoginForm = () => {
             />
           </div>
           
-          <button 
+          <Button
             type="submit" 
             className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 rounded-lg shadow-lg transition transform hover:scale-105"
           >
             Login
-          </button>
+          </Button>
         </form>
         
         <p className="text-center text-gray-400 mt-4">

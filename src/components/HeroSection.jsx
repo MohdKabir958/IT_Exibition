@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 // import "aos/dist/aos.css";
 import heroimg from "../assets/img.webp"
+import {Button} from "../components/index"
 
 const HeroSection = () => {
   useEffect(() => {
@@ -67,12 +68,15 @@ const HeroSection = () => {
       </div>
 
       {/* CTA Button */}
-      <button
-        className="mt-8 bg-blue-500 hover:bg-blue-600 cursor-pointer text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg"
+      <Button
+        className="mt-18 bg-blue-500 hover:bg-blue-600 cursor-pointer text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg"
         data-aos="slide-up"
       >
         Try Now - Upload & Detect
-      </button>
+      </Button>
+
+     
+
     </section>
   );
 };
